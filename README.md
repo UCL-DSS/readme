@@ -18,6 +18,7 @@ This year, we have catagorised our workshops into **three** main themes:
 - Introduction to Python Programming 💻
 
 > Legend:
+>
 > - 🟥: Not implemented
 > - 🟨: Legacy material available, to be updated
 > - 🟦: Available, modification required
@@ -59,6 +60,68 @@ Code | Topic | Prerequisite | Assigned To | Status
 `PY1x` | Algorithms | `PY01` `PY02` `PY03` `PY04` | All | A series, TBC
 
 ## Contributing to Workshops
+
+In order to maintain the consistency and quality of our workshops, please follow these rules throughout your implementations.
+
+### Format
+
+A recommended format for Python programming related workshops is _Jupyter Notebooks_. Other formats include Markdown, PDF, PowerPoint and so on. The following are some guidelines to follow.
+
+#### _Jupyter Notebooks_
+
+- Title: `<Code> - <Theme>:<Topic>`, e.g. `PY01 - Introduction to Python Programming:Fundamentals`
+- Use clear sub-title structure throughout the notebooks (`h1`to `h6` in _Markdown_ syntax)
+- Use _Markdown_ syntax throughtout the notebooks: e.g. *italic*, **bold**, ***bold and italic***, _Object_,`inlineCode()`, quoteblocks and codeblocks and so on. This document is an example.
+- Keep a consistency. For instance, I prefer to use a quoteblock for definition:
+    > ***Computer Science***:
+    > The study of computation and information. Computer science deals with theory of computation, algorithms, computational problems, and the design of computer systems hardware, software, and applications.
+
+- Use _LaTeX_ for mathematical formulae and expressions, both inline and equation blocks.
+- Use relative path instead of absolute path for inserting pictures, if there is any. Put pictures in `assets/`
+- Remove the answers from the questions and exercises, or put them in to different codeblocks to reserve spaces for attempting
+
+#### _Markdown_
+
+All of above, and:
+
+- If possible, export a PDF version using [_Typora_](http://typora.io) with theme `Ursine Umbrella`
+
+#### PowerPoint
+
+- Use DSS logo on every page.
+
+> To be continued
+
+### Structure
+Alex's legacy workshops had set a plausible structure for workshops. Example would be:
+
+```shell
+.
+├── some-workshop
+│   ├── README.md
+│   ├── workshop.ipynb
+│   ├── problem.ipynb
+│   ├── answer.ipynb
+    └── assets
+        └── figure1.png
+```
+
+- `workshop`: the workshop material in `.ipynb`, `.pdf`, `.md`, `.ppt` and so on
+- `problem`: exercises with no answers on it
+- `answer`: answers to `problem`
+- `README`: a syllabus of the course
+- `assets/`: where you put the pictures and attachments to
+
+#### README
+
+The README should have:
+
+- Title
+- Description
+- Prerequisite (use workshop `code` if possible)
+- Author and How to Contact Author
+- Objectives and Outcome
+- Outline (just copy and paste the title structure from `h1` to `h6` in your workshop in a tree structure)
 
 ## Project Management at _Science_
 
