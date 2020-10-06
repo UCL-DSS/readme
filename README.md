@@ -144,7 +144,23 @@ Create an `issue` in each repository to represent a TODO. The `issues` will be a
 
 ## Scheduling of Workshops
 
+Since this academic year the lectures are mostly pre-recorded, so Monday to Wednesday should be a good fit to students' schedule. Each week, I will issue a ticket to the relavent executives and FYR with a workshop to do. The executive will contact _Marketing_ and provide your marketing information. Usually, that includes:
+
+- Your name
+- Your picture
+- Theme
+- Code
+- Title
+- Prerequisite
+- Difficulty (1~5)
+- GitHub repository link
+- Preparation needed
+- Time and Date using London Time - you decide on which day (Mon ~ Wed) and exact time to host the workshop. With consideration for people in UTC+1/+0 to UTC+8
+
+> All workshops are hosted using our MS Teams channel and will be recorded. Most of the information can be found above.
+
 ## Collaboration with Imperial College
 
+Hello to our fellow young data scientists from _South Kensington_! Greeting from _Gower Street_!
 
-
+> To be continued
