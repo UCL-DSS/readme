@@ -64,4 +64,7 @@ Code | Topic | Prerequisite | Assigned To | Status
 
 ## Scheduling of Workshops
 
-## Tips and Advice
+## Collaboration with Imperial College
+
+
+
