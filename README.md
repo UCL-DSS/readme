@@ -125,6 +125,23 @@ The README should have:
 
 ## Project Management at _Science_
 
+The _kanbans_ are used for project management:
+
+- [Data Science with Python Kanban](https://github.com/orgs/UCL-DSS/projects/3)
+- [Toolkits for Data Scientists Kanban](https://github.com/orgs/UCL-DSS/projects/4)
+- [Introduction to Python Programming Kanban](https://github.com/orgs/UCL-DSS/projects/5)
+
+Create an `issue` in each repository to represent a TODO. The `issues` will be added to the Kanban as a card with a person assigned to it. Label the cards well. `Close` the `issue` when finished.
+
+### Workflow
+
+1. Create a repository with `UCL-DSS` account, the name of thye repository should be `<keyword>-workshop` (e.g. `python-logic-workshop`)
+2. `Fork` the repository to your own warehouse. Maintain your own repository.
+    > Keep commits small and use multiple commits. E.g. `Commit#1: Write introduction` `Commit#2: Update question 1` instead of `Commit#1: Implement workshop 1`
+
+3. Create `issue` for TODOs. Keep comments and communications on the issues to that issue thread. Keep track of the kanbans to ensure your tasks are managed.
+4. Make a `pull request` to the `main` branch of the `UCL-DSS` repository when finished. `Link` that pull request to the issues related. I will `merge` it and `close` the issues manually.
+
 ## Scheduling of Workshops
 
 ## Collaboration with Imperial College
