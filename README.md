@@ -32,12 +32,14 @@ Code | Topic | Prerequisite | Assigned To | Status
 `DS02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | Tania | 🟨
 `DS03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | Tania | 🟦
 `DS04`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Romain | 🟨
-`DS05`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Romain | 🟨
-`DS06`| [Support Vector Machine](https://github.com/UCL-DSS/svm-workshop) | `DS01` `DS02` `DS03` | Romain | 🟨
-`DS07`| Introduction to Neural Network | Basic Python | Stefania | 🟨
-`DS08`| CNNs | `DS07` | Stefania | 🟨
-`DS09`| Word Embedding| `DS07` | Stefania | 🟨
-`DS1x`| Maths for Machine Learning | TBC | All | Attached to the end of each `DS0x` workshops?
+`DS05`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
+`DS06`| [Support Vector Machine](https://github.com/UCL-DSS/svm-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
+`DS11`| Introduction to Neural Network | Basic Python | Sebastian, Stefania | 🟨
+`DS12`| CNNs | `DS11` | Sebastian, Stefania | 🟨
+`DS13`| Word Embedding| `DS11` | Sebastian, Stefania | 🟨
+`DS1x`| Neural Network | `DS11` | Sebastian, Stefania | 🟥 Details TBC
+`DS2x`| Maths for Machine Learning | TBC | All | Attached to the end of each `DS0x` workshops?
+
 
 ### Toolkits for Data Scientists 🔬
 
@@ -52,10 +54,10 @@ Code | Topic | Prerequisite | Assigned To | Status
 
 Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`PY01` | [Fundamentals](https://github.com/UCL-DSS/fundamental-python-workshop) | None | Stefania | 🟨
-`PY02` | [Logic](https://github.com/UCL-DSS/python-logic-workshop) | None | Stefania | 🟨
-`PY03` | Arrays | `PY01` `PY02` | Stefania | 🟥
-`PY04` | Functions | `PY01` `PY02` | Tania | 🟥
+`PY01` | [Fundamentals](https://github.com/UCL-DSS/fundamental-python-workshop) | None | Romain | 🟨
+`PY02` | [Logic](https://github.com/UCL-DSS/python-logic-workshop) | None | Romain | 🟨
+`PY03` | Arrays | `PY01` `PY02` | Romain, Tony, Eric | 🟥
+`PY04` | Functions | `PY01` `PY02` | Romain, Tony, Eric | 🟥
 `PY05` | Object Orientated Programming | `PY01` `PY02` `PY03` `PY04` | Eric | 🟨
 `PY1x` | Algorithms | `PY01` `PY02` `PY03` `PY04` | All | A series, TBC
 
