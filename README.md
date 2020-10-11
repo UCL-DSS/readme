@@ -28,8 +28,8 @@ This year, we have catagorised our workshops into **three** main themes:
 
 Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`DS01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Tania | 🟨
-`DS02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | Tania | 🟨
+`DS01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Tony | 🟩
+`DS02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | Tania | 🟩
 `DS03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | Tania | 🟦
 `DS04`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Romain | 🟨
 `DS05`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
