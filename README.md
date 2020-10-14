@@ -28,10 +28,10 @@ This year, we have catagorised our workshops into **three** main themes:
 
 Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`DS01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Tania | 🟨
-`DS02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | Tania | 🟨
+`DS01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Tony | 🟩
+`DS02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | Tania | 🟩
 `DS03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | Tania | 🟦
-`DS04`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Romain | 🟨
+`DS04`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Tony | 🟨
 `DS05`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
 `DS06`| [Support Vector Machine](https://github.com/UCL-DSS/svm-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
 `DS11`| Introduction to Neural Network | Basic Python | Sebastian, Stefania | 🟨
@@ -54,11 +54,11 @@ Code | Topic | Prerequisite | Assigned To | Status
 
 Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`PY01` | [Fundamentals](https://github.com/UCL-DSS/fundamental-python-workshop) | None | Romain | 🟨
-`PY02` | [Logic](https://github.com/UCL-DSS/python-logic-workshop) | None | Romain | 🟨
-`PY03` | Arrays | `PY01` `PY02` | Romain, Tony, Eric | 🟥
-`PY04` | Functions | `PY01` `PY02` | Romain, Tony, Eric | 🟥
-`PY05` | Object Orientated Programming | `PY01` `PY02` `PY03` `PY04` | Eric | 🟨
+`PY01` | [Fundamentals](https://github.com/UCL-DSS/fundamental-python-workshop) | None | Tony, Eric | 🟦
+`PY02` | Lists and Dictionaries | `PY01` | Tony, Eric | 🟥
+`PY03` | [Logic](https://github.com/UCL-DSS/python-logic-workshop) | None | Tony, Eric | 🟨
+`PY04` | Functions | `PY01` `PY02` | Tony, Eric | 🟥
+`PY05` | Object Orientated Programming | `PY01` `PY02` `PY03` `PY04` | Tony, Eric | 🟨
 `PY1x` | Algorithms | `PY01` `PY02` `PY03` `PY04` | All | A series, TBC
 
 ## Contributing to Workshops
