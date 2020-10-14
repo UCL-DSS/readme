@@ -20,7 +20,7 @@ This year, we have catagorised our workshops into **three** main themes:
 > Legend:
 >
 > - 🟥: Not implemented
-> - 🟨: Legacy material available, to be updated
+> - 🟨: Legacy material available, to be updated or re-written 
 > - 🟦: Available, modification required
 > - 🟩: Good to go
 
@@ -34,9 +34,9 @@ Code | Topic | Prerequisite | Assigned To | Status
 `DS04`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Tony | 🟨
 `DS05`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
 `DS06`| [Support Vector Machine](https://github.com/UCL-DSS/svm-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
-`DS11`| Introduction to Neural Network | Basic Python | Sebastian, Stefania | 🟨
-`DS12`| CNNs | `DS11` | Sebastian, Stefania | 🟨
-`DS13`| Word Embedding| `DS11` | Sebastian, Stefania | 🟨
+`DS11`| [Introduction to Neural Network](https://github.com/UCL-DSS/nn-introduction-workshop) | Basic Python | Sebastian, Stefania | 🟨
+`DS12`| [CNNs](https://github.com/UCL-DSS/cnn-workshop) | `DS11` | Sebastian, Stefania | 🟨
+`DS13`| [Word Embedding](https://github.com/UCL-DSS/word-embeddings-workshop) | `DS11` | Sebastian, Stefania | 🟨
 `DS1x`| Neural Network | `DS11` | Sebastian, Stefania | 🟥 Details TBC
 `DS2x`| Maths for Machine Learning | TBC | All | Attached to the end of each `DS0x` workshops?
 
