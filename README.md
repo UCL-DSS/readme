@@ -55,11 +55,12 @@ Code | Topic | Prerequisite | Assigned To | Status
 Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
 `PY01` | [Fundamentals](https://github.com/UCL-DSS/fundamental-python-workshop) | None | Tony, Eric | 🟦
-`PY02` | Lists and Dictionaries | `PY01` | Tony, Eric | 🟥
-`PY03` | [Logic](https://github.com/UCL-DSS/python-logic-workshop) | None | Tony, Eric | 🟨
+`PY02` | [Sequence: Lists and Tuples](https://github.com/UCL-DSS/python-sequence-workshop) | `PY01` | Tony | 🟩
+`PY03` | [Logic](https://github.com/UCL-DSS/python-logic-workshop) | None | Stefania | 🟨
 `PY04` | Functions | `PY01` `PY02` | Tony, Eric | 🟥
 `PY05` | Object Orientated Programming | `PY01` `PY02` `PY03` `PY04` | Tony, Eric | 🟨
 `PY1x` | Algorithms | `PY01` `PY02` `PY03` `PY04` | All | A series, TBC
+`PYTx` | Troubleshooting Sessions: PATH, Jupyter Notebooks, Intepreters, `pip` and `conda`| None | All | A series, TBC
 
 ## Contributing to Workshops
 
