@@ -30,10 +30,11 @@ Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
 `DS01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Tony | 🟩
 `DS02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | Tania | 🟩
-`DS03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | Tania | 🟦
-`DS04`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Tony | 🟨
-`DS05`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
-`DS06`| [Support Vector Machine](https://github.com/UCL-DSS/svm-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
+`DS03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | Tania | 🟩
+`DS04`| Basics of Machine Learning and Polynomial Curve Fitting | `DS01` `DS02` `DS03` | Tony | 🟥
+`DS05`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Stefania | 🟨
+`DS06`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
+`DS07`| [Support Vector Machine](https://github.com/UCL-DSS/svm-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
 `DS11`| [Introduction to Neural Network](https://github.com/UCL-DSS/nn-introduction-workshop) | Basic Python | Sebastian, Stefania | 🟨
 `DS12`| [CNNs](https://github.com/UCL-DSS/cnn-workshop) | `DS11` | Sebastian, Stefania | 🟨
 `DS13`| [Word Embedding](https://github.com/UCL-DSS/word-embeddings-workshop) | `DS11` | Sebastian, Stefania | 🟨
