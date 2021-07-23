@@ -1,4 +1,5 @@
 # readme
+
 Everything you need to know about UCL DSS workshops!
 
 ## About
@@ -7,15 +8,18 @@ Welcome to the UCL Data Science Society ✨ ! This is a quick starter pack for a
 
 ## Acknowledgements
 
-Big shout out to @oleksiysmola Alex for implementing more than ten amazing workshops last year as the Head of _Science_ and continuing to contribute to the work at _Science_ this year. Without his legacy workshop materials, we would never be able to achieve what we have today. Thanks, Alex!
+Big shout out to @oleksiysmola Alex for implementing more than ten amazing workshops two years agao as the Head of _Science_ and continuing to contribute to the work at _Science_ last year. Without his legacy workshop materials, we would never be able to achieve what we have today. Thanks, Alex!
+
+A further shout out to Tony for contiuning this great work as Head of _Science_ last year, updating existing material and developing several new workshops alongside his team of executives! Again, without his work we would not be able to continue to build on the success of this society!
 
 ## Workshops Available
 
-This year, we have catagorised our workshops into **three** main themes:
+This year, we have catagorised our workshops into **four** main themes:
 
+- Introduction to Python Programming 💻
 - Data Science with Python 🔮
 - Toolkits for Data Scientists 🔬
-- Introduction to Python Programming 💻
+- Data Science Fields :lab_coat:
 
 > Legend:
 >
@@ -28,40 +32,55 @@ This year, we have catagorised our workshops into **three** main themes:
 
 Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`DS01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Tony | 🟩
-`DS02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | Tania | 🟩
-`DS03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | Tania | 🟩
-`DS04`| Basics of Machine Learning and Polynomial Curve Fitting | `DS01` `DS02` `DS03` | Tony | 🟥
-`DS05`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Stefania | 🟨
-`DS06`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
-`DS07`| [Support Vector Machine](https://github.com/UCL-DSS/svm-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
-`DS11`| [Introduction to Neural Network](https://github.com/UCL-DSS/nn-introduction-workshop) | Basic Python | Sebastian, Stefania | 🟨
-`DS12`| [CNNs](https://github.com/UCL-DSS/cnn-workshop) | `DS11` | Sebastian, Stefania | 🟨
-`DS13`| [Word Embedding](https://github.com/UCL-DSS/word-embeddings-workshop) | `DS11` | Sebastian, Stefania | 🟨
-`DS1x`| Neural Network | `DS11` | Sebastian, Stefania | 🟥 Details TBC
-`DS2x`| Maths for Machine Learning | TBC | All | Attached to the end of each `DS0x` workshops?
-
+`DS01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Philip | 🟨
+`DS02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | TBC | 🟨
+`DS03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
+`DS04`| [Linear Model Regression](https://github.com/UCL-DSS/linear-regression-workshop) | `DS01` `DS02` `DS03` | Zeyan | 🟨
+`DS05` | [Ridge and Lasso Regression] | `DS01` `DS02` `DS03` `DS04` | TBC | 🟥
+`DS06`| [Support Vector Machine](https://github.com/UCL-DSS/svm-workshop) | `DS01` `DS02` `DS03` | TBC | 🟨
+`DS07` | [Decision Trees](https://github.com/UCL-DSS/DecisionTree-classifiers-worksop) | `DS01` `DS02` `DS03` | Philip | 🟩
+`DS08` | [Random Forest](https://github.com/UCL-DSS/random-forest-workshop) | `DS01` `DS02` `DS03` `DS07` | Philip | 🟨
+`DS09` | [K-means clustering](https://github.com/UCL-DSS/Kmeans-clustering-workshop) | `DS01` `DS02` `DS03` | Zeyan | 🟥
+`DS10` | [Hierarchical clustering]() |`DS01` `DS02` `DS03` `DS09`| Philip | 🟥
+`DS11` | [DBScan clustering]() | `DS01` `DS02` `DS03` `DS09` `DS10`| Philip | 🟥
+`DS12` | [Dimensionality reduction]() | `DS01` `DS02` `DS03` | TBC | 🟥
+`DS13`| [Introduction to Neural Network](https://github.com/UCL-DSS/nn-introduction-workshop) | Basic Python | TBC | 🟨
 
 ### Toolkits for Data Scientists 🔬
 
 Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`TK01`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Tony | 🟦
-`TK02`| _streamlit_ | Basic Python | Tony | 🟥
-`TK03`| _Spark_ | TBC | Eric | 🟥
-`TK04`| Relational Database and _SQL_ | None | Stefania | 🟥
+`TK01`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟦
+`TK02`| Relational Database and _SQL_ | None | Zeyan | 🟥
 
 ### Introduction to Python Programming 💻
 
 Code | Topic | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`PY01` | [Fundamentals](https://github.com/UCL-DSS/fundamental-python-workshop) | None | Tony, Eric | 🟦
-`PY02` | [Sequence: Lists and Tuples](https://github.com/UCL-DSS/python-sequence-workshop) | `PY01` | Tony | 🟩
-`PY03` | [Logic](https://github.com/UCL-DSS/python-logic-workshop) | None | Stefania | 🟨
-`PY04` | Functions | `PY01` `PY02` | Tony, Eric | 🟥
-`PY05` | Object Orientated Programming | `PY01` `PY02` `PY03` `PY04` | Tony, Eric | 🟨
+`PY01` | [Fundamentals](https://github.com/UCL-DSS/fundamental-python-workshop) | None | Zeyan | 🟨
+`PY02` | [Sequence: Lists and Tuples](https://github.com/UCL-DSS/python-sequence-workshop) | `PY01` | TBC | 🟨
+`PY03` | [Logic](https://github.com/UCL-DSS/python-logic-workshop) | None | Zeyan | 🟨
+`PY04` | Functions | `PY01` `PY02` | TBC | 🟥
+`PY05` | Object Orientated Programming | `PY01` `PY02` `PY03` `PY04` | TBC | 🟨
 `PY1x` | Algorithms | `PY01` `PY02` `PY03` `PY04` | All | A series, TBC
 `PYTx` | Troubleshooting Sessions: PATH, Jupyter Notebooks, Intepreters, `pip` and `conda`| None | All | A series, TBC
+
+
+### Data Science Fields 🥼
+
+Code | Topic | Prerequisite | Assigned To | Status
+:---:|:-----:|:------------:|:-----------:|:-----------:
+`DSF01`| Data Science for Finance | `PY01`, `PY02`, `PY03` | Zeyan | 🟥
+`DSF02` | Spatial Data Science | `PY01`, `PY03`, `PY03`, `DS03`, `DS02` | Philip | 🟥
+
+
+### Legacy workshops 🛌
+
+`DS12`| [CNNs](https://github.com/UCL-DSS/cnn-workshop) | `DS11` | Sebastian, Stefania | 🟨
+`DS06`| [k-NN](https://github.com/UCL-DSS/knn-workshop) | `DS01` `DS02` `DS03` | Tania | 🟨
+`DS13`| [Word Embedding](https://github.com/UCL-DSS/word-embeddings-workshop) | `DS11` | Sebastian, Stefania | 🟨
+
+
 
 ## Contributing to Workshops
 
